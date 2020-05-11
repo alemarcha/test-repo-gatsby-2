@@ -100,17 +100,6 @@
   Link: </test-repo-gatsby-2/component---src-templates-not-found-template-js-15aa5e25cd3e3cb6e7dd.js>; rel=preload; as=script
   Link: </test-repo-gatsby-2/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </test-repo-gatsby-2/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
-/test-repo-gatsby-2/pages/about/
-  Link: </test-repo-gatsby-2/webpack-runtime-0cf1a41d1011e1a9de22.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/styles-8636a280cbc61d53ad10.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/framework-98d3acaa9261c489e046.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/532a2f07-5c94c7a8c333252841c3.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/app-f84b3b426e2dad3a9c93.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/styles-8636a280cbc61d53ad10.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/cd95ea5cbd2c605f26db819f07999610c9ff4310-96a7a483794b8e413759.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/component---src-templates-page-template-js-05515fc1993d231539aa.js>; rel=preload; as=script
-  Link: </test-repo-gatsby-2/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </test-repo-gatsby-2/page-data/pages/about/page-data.json>; rel=preload; as=fetch; crossorigin
 /test-repo-gatsby-2/pages/contacts/
   Link: </test-repo-gatsby-2/webpack-runtime-0cf1a41d1011e1a9de22.js>; rel=preload; as=script
   Link: </test-repo-gatsby-2/styles-8636a280cbc61d53ad10.js>; rel=preload; as=script

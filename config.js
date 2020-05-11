@@ -1,8 +1,8 @@
 "use strict";
 
 module.exports = {
-  url: "https://lumen.netlify.com",
-  pathPrefix: "test-repo-gatsby-2",
+  url: "https://alemarcha.github.io",
+  pathPrefix: "/test-repo-gatsby-2",
   title: "Blog by John Doe",
   subtitle:
     "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",

@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-470bd5e23bf7ca9f790a.js"
+    "url": "webpack-runtime-03f4f6870d4257c8f3a7.js"
   },
   {
     "url": "styles.69c8303230227041b58c.css"
@@ -42,22 +42,14 @@ self.__precacheManifest = [
     "url": "532a2f07-5c94c7a8c333252841c3.js"
   },
   {
-    "url": "app-f84b3b426e2dad3a9c93.js"
+    "url": "app-ff8d6eaa19077374df8d.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "af6e449daca09e7f85f49aba1a3b6e4d"
+    "revision": "c5721261c90a4ade8c75b04a045518fe"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-cc2751a409622c7dca7b.js"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "43232b01cc861c0701a3ece4bd67720b"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "7dc457ccab90b4627b56b783eb121ba7"
   },
   {
     "url": "manifest.json",
@@ -65,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "f1272970de395d0bb82166dcb7116100"
+    "revision": "9b2ea27d3693af7eced1a98b606b7c7e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -153,12 +145,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/test-repo-gatsby-2`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/test-repo-gatsby-2/app-f84b3b426e2dad3a9c93.js`))) {
+  if (!resources || !(await caches.match(`/app-ff8d6eaa19077374df8d.js`))) {
     return await fetch(event.request)
   }
 
@@ -171,7 +163,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/test-repo-gatsby-2/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })

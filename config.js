@@ -1,8 +1,8 @@
 "use strict";
 
 module.exports = {
-  url: "https://alemarcha.github.io",
-  pathPrefix: "/test-repo-gatsby-2",
+  url: "https://gitalemarcha.zyns.com",
+  pathPrefix: "/",
   title: "Blog by John Doe",
   subtitle:
     "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
